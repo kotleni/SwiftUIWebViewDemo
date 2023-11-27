@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A78FA4A2B14C0B100687895 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A78FA492B14C0B100687895 /* README.md */; };
 		5A8B46B92B14AE5A00911CEA /* WebViewDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B46B82B14AE5A00911CEA /* WebViewDemoApp.swift */; };
 		5A8B46BB2B14AE5A00911CEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B46BA2B14AE5A00911CEA /* ContentView.swift */; };
 		5A8B46BD2B14AE5C00911CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B46BC2B14AE5C00911CEA /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A78FA482B14BADC00687895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A78FA492B14C0B100687895 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A8B46B52B14AE5A00911CEA /* WebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8B46B82B14AE5A00911CEA /* WebViewDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDemoApp.swift; sourceTree = "<group>"; };
 		5A8B46BA2B14AE5A00911CEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		5A8B46AC2B14AE5A00911CEA = {
 			isa = PBXGroup;
 			children = (
+				5A78FA492B14C0B100687895 /* README.md */,
 				5A8B46B72B14AE5A00911CEA /* WebViewDemo */,
 				5A8B46B62B14AE5A00911CEA /* Products */,
 			);
@@ -51,6 +55,7 @@
 		5A8B46B72B14AE5A00911CEA /* WebViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5A78FA482B14BADC00687895 /* Info.plist */,
 				5A8B46B82B14AE5A00911CEA /* WebViewDemoApp.swift */,
 				5A8B46BA2B14AE5A00911CEA /* ContentView.swift */,
 				5A8B46BC2B14AE5C00911CEA /* Assets.xcassets */,
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A78FA4A2B14C0B100687895 /* README.md in Resources */,
 				5A8B46C02B14AE5C00911CEA /* Preview Assets.xcassets in Resources */,
 				5A8B46BD2B14AE5C00911CEA /* Assets.xcassets in Resources */,
 			);
@@ -275,6 +281,9 @@
 				DEVELOPMENT_TEAM = 534C989ZLQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebViewDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = NEED;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = NEED;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +313,9 @@
 				DEVELOPMENT_TEAM = 534C989ZLQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebViewDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = NEED;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = NEED;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
